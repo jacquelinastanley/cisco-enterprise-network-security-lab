@@ -1,0 +1,39 @@
+# VLANs / trunking
+show vlan brief
+show interfaces trunk
+
+# Layer 3 interfaces and routing
+show ip interface brief
+show ip route
+
+# OSPF (additional useful checks)
+show ip ospf neighbor
+show ip protocols
+
+# EtherChannel
+show etherchannel
+show etherchannel summary
+
+# HSRP
+show standby
+show standby brief
+
+# STP
+show spanning-tree
+
+# DHCP
+show ip dhcp pool
+show ip dhcp binding
+
+# MAC / port security
+show mac address-table
+show port-security
+show run | section port-security
+
+# CDP
+show cdp neighbors
+show cdp neighbors detail
+
+# End-to-end tests
+ping <destination-ip>
+traceroute <destination-ip>
