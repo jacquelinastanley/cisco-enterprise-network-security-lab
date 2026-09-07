@@ -1,0 +1,12 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary Packet Tracer backups/exports
+*.bak
+*.tmp
+~$*
+
+# Keep the actual .pkt project file tracked once added.
